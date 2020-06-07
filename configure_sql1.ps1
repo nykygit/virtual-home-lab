@@ -21,3 +21,25 @@ PASSWORD = <StrongPassword>
 # Congratulations - you’re now cooking with fire!
 # Install AD Tools to make GUI administration easy - easier than switching screens
 Install-WindowsFeature -Name "RSAT-ADDS"
+
+# Create Managed Service Accounts for SQL1
+New-ADServiceAccount -Name "msa_SQL1_1a" -Path "OU=Services,OU=LAB,DC=LAB,DC=COM" -RestrictToSingleComputer -Description "Managed Service Account for SQL1 - MSSQL Instance - SQL Server Agent"
+New-ADServiceAccount -Name "msa_SQL1_1e" -Path "OU=Services,OU=LAB,DC=LAB,DC=COM" -RestrictToSingleComputer -Description "Managed Service Account for SQL1 - MSSQL Instance - SQL Server Engine"
+New-ADServiceAccount -Name "msa_SQL1_1i" -Path "OU=Services,OU=LAB,DC=LAB,DC=COM" -RestrictToSingleComputer -Description "Managed Service Account for SQL1 - MSSQL Instance - SQL Server Integration Service"
+New-ADServiceAccount -Name "msa_SQL1_1y" -Path "OU=Services,OU=LAB,DC=LAB,DC=COM" -RestrictToSingleComputer -Description "Managed Service Account for SQL1 - MSSQL Instance - SQL Server Analysis Service"
+
+# Install Managed Service Accounts on SQL1
+Install-ADServiceAccount -Identity "msa_SQL1_1a"
+Install-ADServiceAccount -Identity "msa_SQL1_1e"
+Install-ADServiceAccount -Identity "msa_SQL1_1i"
+Install-ADServiceAccount -Identity "msa_SQL1_1y"
+
+# Test Managed Service Accounts on SQL1 - They should return True
+Test-ADServiceAccount -Identity "msa_SQL1_1a"
+Test-ADServiceAccount -Identity "msa_SQL1_1e"
+Test-ADServiceAccount -Identity "msa_SQL1_1i"
+Test-ADServiceAccount -Identity "msa_SQL1_1y"
+
+# Configure SPN for Kerberos
+# We don't need to do this because we setup SQL using a Domain Admin account
+# SETSPN -s MSSQLSvc/sql1.lab.com lab\msa_SQL1_1e
