@@ -37,7 +37,7 @@ LAB VMs can reach the Internet to simplify things.  In a production environment 
 
 We are going to configure 2 virtual machines (a DC and a SQL server) that share the physical host network adapter.  The host will be able to communicate with the VMs, the VMs with each other, and the VMs with the host, for the sake of simplicity.  We are going to assume that the 2 IP addresses below are not being used by anything and that your Physical Router is on the same network as the rest of the world.
 
-## PHYSICAL ROUTER
+### PHYSICAL ROUTER
 
 IP Address = 192.168.1.1
 
@@ -51,7 +51,7 @@ Type = EXTERNAL
 
 HYPER-V MACHINES
 
-## DC1
+### DC1
 
 -SPECS
 --DISK = 25GB
@@ -72,7 +72,7 @@ HYPER-V MACHINES
 --FQDN = LAB.COM
 --NETBIOS = LAB
   
-## SQL1
+### SQL1
 
 -SPECS
 --DISK = 25GB
@@ -90,7 +90,7 @@ HYPER-V MACHINES
 --MEM MIN = 500MB
 --MEM MAX = 1GB
 
-## SQL2
+### SQL2
 
 -SPECS
 --DISK = 25GB
