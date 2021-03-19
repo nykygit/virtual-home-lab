@@ -17,7 +17,7 @@ MEM = 64GB DDR4
 
 DISK = 1TB Samsung 960 Pro NVME
 
-GFX = whatever the big expensive GeForce RTX card is called...probably overkill but who doesn't need a reason for a big card??!!  Maybe one day we will crunch some GPU and put it to use...
+GFX = whatever the big expensive GeForce RTX card is called...because.
 
 ## LAB ASSUMPTIONS
 
