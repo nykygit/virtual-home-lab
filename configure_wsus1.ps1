@@ -21,3 +21,7 @@ PASSWORD = <StrongPassword>
 # Congratulations - you’re now cooking with fire!
 # Install AD Tools to make GUI administration easy - easier than switching screens
 Install-WindowsFeature -Name "RSAT-ADDS"
+
+# Copy the template to C:\CONFIG
+# Run to Configure WSUS Role
+Install-WindowsFeature -ConfigurationFilePath 'C:\CONFIG\wsus1.xml'
