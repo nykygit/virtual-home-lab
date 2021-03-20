@@ -1,0 +1,1230 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Collections.ObjectModel.Collection`1[[System.Management.Automation.PSObject, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
+      <T>System.Object</T>
+    </TN>
+    <LST>
+      <Obj RefId="1">
+        <TN RefId="1">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_NET_Framework_45_ASPNET</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_NET_Framework_45_ASPNET</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_NET_Framework_45_ASPNET</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">429</I32>
+          <Obj N="__ClassMetadata" RefId="2">
+            <TN RefId="2">
+              <T>System.Collections.ArrayList</T>
+              <T>System.Object</T>
+            </TN>
+            <LST>
+              <Obj RefId="3">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                  <S N="MiXml">&lt;CLASS NAME="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="locale" TYPE="sint32" TOSUBCLASS="false"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+              <Obj RefId="4">
+                <MS>
+                  <S N="ClassName">ServerComponent_NET_Framework_45_ASPNET</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1012368440</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_NET_Framework_45_ASPNET" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;4.5.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;NET-Framework-45-ASPNET&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="5">
+        <TN RefId="3">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_NET_WCF_HTTP_Activation45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_NET_WCF_HTTP_Activation45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_NET_WCF_HTTP_Activation45</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">421</I32>
+          <Obj N="__ClassMetadata" RefId="6">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="7">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="8">
+                <MS>
+                  <S N="ClassName">ServerComponent_NET_WCF_HTTP_Activation45</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1012366360</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_NET_WCF_HTTP_Activation45" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;4.5.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;NET-WCF-HTTP-Activation45&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="9">
+        <TN RefId="4">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_UpdateServices</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_UpdateServices</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_UpdateServices</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">404</I32>
+          <Obj N="__ClassMetadata" RefId="10">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="11">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="12">
+                <MS>
+                  <S N="ClassName">ServerComponent_UpdateServices</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013800184</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_UpdateServices" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;UpdateServices&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="13">
+        <TN RefId="5">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_UpdateServices_API</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_UpdateServices_API</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_UpdateServices_API</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">405</I32>
+          <Obj N="__ClassMetadata" RefId="14">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="15">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="16">
+                <MS>
+                  <S N="ClassName">ServerComponent_UpdateServices_API</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013815784</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_UpdateServices_API" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;UpdateServices-API&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="17">
+        <TN RefId="6">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_UpdateServices_RSAT</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_UpdateServices_RSAT</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_UpdateServices_RSAT</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">474</I32>
+          <Obj N="__ClassMetadata" RefId="18">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="19">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="20">
+                <MS>
+                  <S N="ClassName">ServerComponent_UpdateServices_RSAT</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013809544</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_UpdateServices_RSAT" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;UpdateServices-RSAT&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="21">
+        <TN RefId="7">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_UpdateServices_Services</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_UpdateServices_Services</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_UpdateServices_Services</ToString>
+        <Props>
+          <S N="ContentDirectory">C:\SHARE\UPDATES</S>
+          <B N="ContentLocal">true</B>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">407</I32>
+          <Obj N="__ClassMetadata" RefId="22">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="23">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="24">
+                <MS>
+                  <S N="ClassName">ServerComponent_UpdateServices_Services</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013808504</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_UpdateServices_Services" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;UpdateServices-Services&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;PROPERTY NAME="ContentDirectory" TYPE="string"&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="ContentLocal" TYPE="boolean"&gt;&lt;/PROPERTY&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+          <Obj N="__InstanceMetadata" RefId="25">
+            <MS>
+              <S N="Modified">ContentDirectory ContentLocal</S>
+            </MS>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="26">
+        <TN RefId="8">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_UpdateServices_UI</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_UpdateServices_UI</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_UpdateServices_UI</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">408</I32>
+          <Obj N="__ClassMetadata" RefId="27">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="28">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="29">
+                <MS>
+                  <S N="ClassName">ServerComponent_UpdateServices_UI</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013820984</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_UpdateServices_UI" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;UpdateServices-UI&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="30">
+        <TN RefId="9">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_UpdateServices_WidDB</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_UpdateServices_WidDB</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_UpdateServices_WidDB</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">449</I32>
+          <Obj N="__ClassMetadata" RefId="31">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="32">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="33">
+                <MS>
+                  <S N="ClassName">ServerComponent_UpdateServices_WidDB</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013799144</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_UpdateServices_WidDB" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;UpdateServices-WidDB&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="34">
+        <TN RefId="10">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WAS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WAS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WAS</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">41</I32>
+          <Obj N="__ClassMetadata" RefId="35">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="36">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="37">
+                <MS>
+                  <S N="ClassName">ServerComponent_WAS</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013805384</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WAS" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WAS&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="38">
+        <TN RefId="11">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WAS_Config_APIs</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WAS_Config_APIs</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WAS_Config_APIs</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">217</I32>
+          <Obj N="__ClassMetadata" RefId="39">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="40">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="41">
+                <MS>
+                  <S N="ClassName">ServerComponent_WAS_Config_APIs</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013802264</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WAS_Config_APIs" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WAS-Config-APIs&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="42">
+        <TN RefId="12">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WAS_Process_Model</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WAS_Process_Model</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WAS_Process_Model</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">219</I32>
+          <Obj N="__ClassMetadata" RefId="43">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="44">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="45">
+                <MS>
+                  <S N="ClassName">ServerComponent_WAS_Process_Model</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013672696</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WAS_Process_Model" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WAS-Process-Model&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="46">
+        <TN RefId="13">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_App_Dev</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_App_Dev</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_App_Dev</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">147</I32>
+          <Obj N="__ClassMetadata" RefId="47">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="48">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="49">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_App_Dev</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013685176</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_App_Dev" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-App-Dev&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="50">
+        <TN RefId="14">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Asp_Net45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Asp_Net45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Asp_Net45</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">413</I32>
+          <Obj N="__ClassMetadata" RefId="51">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="52">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="53">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Asp_Net45</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013684136</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Asp_Net45" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Asp-Net45&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="54">
+        <TN RefId="15">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Common_Http</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Common_Http</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Common_Http</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">141</I32>
+          <Obj N="__ClassMetadata" RefId="55">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="56">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="57">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Common_Http</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013682056</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Common_Http" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Common-Http&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="58">
+        <TN RefId="16">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Default_Doc</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Default_Doc</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Default_Doc</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">143</I32>
+          <Obj N="__ClassMetadata" RefId="59">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="60">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="61">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Default_Doc</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013648776</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Default_Doc" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Default-Doc&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="62">
+        <TN RefId="17">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Dyn_Compression</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Dyn_Compression</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Dyn_Compression</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">173</I32>
+          <Obj N="__ClassMetadata" RefId="63">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="64">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="65">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Dyn_Compression</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013638376</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Dyn_Compression" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Dyn-Compression&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="66">
+        <TN RefId="18">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Filtering</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Filtering</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Filtering</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">169</I32>
+          <Obj N="__ClassMetadata" RefId="67">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="68">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="69">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Filtering</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013653976</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Filtering" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Filtering&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="70">
+        <TN RefId="19">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_ISAPI_Ext</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_ISAPI_Ext</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_ISAPI_Ext</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">152</I32>
+          <Obj N="__ClassMetadata" RefId="71">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="72">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="73">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_ISAPI_Ext</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013503592</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_ISAPI_Ext" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-ISAPI-Ext&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="74">
+        <TN RefId="20">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_ISAPI_Filter</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_ISAPI_Filter</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_ISAPI_Filter</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">153</I32>
+          <Obj N="__ClassMetadata" RefId="75">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="76">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="77">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_ISAPI_Filter</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013519192</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_ISAPI_Filter" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-ISAPI-Filter&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="78">
+        <TN RefId="21">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Metabase</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Metabase</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Metabase</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">179</I32>
+          <Obj N="__ClassMetadata" RefId="79">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="80">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="81">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Metabase</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013517112</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Metabase" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Metabase&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="82">
+        <TN RefId="22">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Mgmt_Compat</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Mgmt_Compat</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Mgmt_Compat</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">178</I32>
+          <Obj N="__ClassMetadata" RefId="83">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="84">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="85">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Mgmt_Compat</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013525432</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Mgmt_Compat" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Mgmt-Compat&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="86">
+        <TN RefId="23">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Mgmt_Console</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Mgmt_Console</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Mgmt_Console</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">175</I32>
+          <Obj N="__ClassMetadata" RefId="87">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="88">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="89">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Mgmt_Console</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013534792</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Mgmt_Console" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Mgmt-Console&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="90">
+        <TN RefId="24">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Mgmt_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Mgmt_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Mgmt_Tools</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">174</I32>
+          <Obj N="__ClassMetadata" RefId="91">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="92">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="93">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Mgmt_Tools</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013524392</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Mgmt_Tools" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Mgmt-Tools&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="94">
+        <TN RefId="25">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Net_Ext45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Net_Ext45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Net_Ext45</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">414</I32>
+          <Obj N="__ClassMetadata" RefId="95">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="96">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="97">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Net_Ext45</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013530632</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Net_Ext45" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Net-Ext45&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="98">
+        <TN RefId="26">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Performance</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Performance</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Performance</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">171</I32>
+          <Obj N="__ClassMetadata" RefId="99">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="100">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="101">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Performance</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013486952</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Performance" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Performance&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="102">
+        <TN RefId="27">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Security</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Security</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Security</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">162</I32>
+          <Obj N="__ClassMetadata" RefId="103">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="104">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="105">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Security</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013492152</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Security" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Security&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="106">
+        <TN RefId="28">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Server</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Server</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Server</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">2</I32>
+          <Obj N="__ClassMetadata" RefId="107">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="108">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="109">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Server</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013498392</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Server" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Server&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="110">
+        <TN RefId="29">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Static_Content</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Static_Content</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Static_Content</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">142</I32>
+          <Obj N="__ClassMetadata" RefId="111">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="112">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="113">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Static_Content</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013495272</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Static_Content" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Static-Content&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="114">
+        <TN RefId="30">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_WebServer</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_WebServer</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_WebServer</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">140</I32>
+          <Obj N="__ClassMetadata" RefId="115">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="116">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="117">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_WebServer</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013496312</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_WebServer" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-WebServer&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="118">
+        <TN RefId="31">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Windows_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Windows_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Windows_Auth</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">164</I32>
+          <Obj N="__ClassMetadata" RefId="119">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="120">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="121">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Windows_Auth</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1013474472</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Windows_Auth" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Windows-Auth&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="122">
+        <TN RefId="32">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Windows_Internal_Database</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Windows_Internal_Database</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Windows_Internal_Database</ToString>
+        <Props>
+          <S N="PSComputerName">WSUS1</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">51</I32>
+          <Obj N="__ClassMetadata" RefId="123">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="124">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1025168536</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="125">
+                <MS>
+                  <S N="ClassName">ServerComponent_Windows_Internal_Database</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WSUS1</S>
+                  <I32 N="Hash">-1015240152</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Windows_Internal_Database" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;8.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Windows-Internal-Database&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+    </LST>
+  </Obj>
+</Objs>
